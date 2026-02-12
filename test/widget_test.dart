@@ -8,5 +8,7 @@ void main() {
     expect(find.text('Story Cutter'), findsOneWidget);
     expect(find.text('Cut videos for\nInstagram Stories'), findsOneWidget);
     expect(find.text('Tap to select a video'), findsOneWidget);
+    expect(find.text('Segment Duration'), findsOneWidget);
+    expect(find.text('60s'), findsOneWidget);
   });
 }
